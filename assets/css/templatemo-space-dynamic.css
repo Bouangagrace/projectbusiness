@@ -832,13 +832,35 @@ Banner Style
 */
 
 .main-banner {
+  background-image: url(../images/business-3d-man-lying-on-stomach-with-laptop.png);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/business-3d-man-lying-on-stomach-with-laptop.png); */
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: 80%;
   padding: 226px 0px 120px 0px;
   position: relative;
   overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* transition: transform 1s ease-in-out; /* 1s pour la durée de la transition, ease-in-out pour une transition douce */
+  /* animation: moove 10s 1.75s ease-in-out infinite;  */
 }
+
+/* @keyframes moove {
+
+0%{
+  background-image: url(../images/business-3d-man-lying-on-stomach-with-laptop.png);
+  transform: translateY(0);
+  transition: transform 1s ease-in-out;
+}
+
+100%{
+  transform: translateY(10px);
+  transition: transform 1s ease-in-out;
+  background-image: url(../images/business-3d-man-lying-on-stomach-with-laptop.png);
+}
+  
+} */
+
 
 .main-banner:after {
   content: '';
@@ -948,7 +970,7 @@ About Us Style
 }
 
 .about-us {
-  background-image: url(../images/about-bg.png);
+  background-image: url(../images/about-bg1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1594,4 +1616,8 @@ responsive
   .phone-info h4 span i {
     margin-left: 0px;
   }
+}
+
+.nav {
+  display: block;
 }
