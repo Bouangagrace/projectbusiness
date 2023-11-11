@@ -1447,18 +1447,14 @@ Footer Style
 */
 .fin{
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
   gap: 50px;
-  height: 200px;
 }
-
-
-.liste1{
+.rest{
   display: block;
+  
 }
-
-
 
 footer p {
   text-align: center;
