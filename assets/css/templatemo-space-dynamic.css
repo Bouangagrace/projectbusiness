@@ -1495,15 +1495,16 @@ responsive
 
 @media (max-width: 992px) {
   .main-banner {
-    padding-top: 196px;
+    padding-top: 100px;
+    background-position: center;
   }
   .main-banner .left-content {
     margin-right: 0px;
-    text-align: center;
+    text-align: top;
     margin-bottom: 45px;
   }
   .main-banner:after {
-    top: 76px;
+    top: 100px;
     z-index: -1;
   }
   .main-banner .left-content form,
@@ -1540,7 +1541,7 @@ responsive
     text-align: left;
   }
   .our-services {
-    margin-top: 200px;
+    margin-top: 50px;
   }
   .our-services .left-image {
     margin-right: 0px;
@@ -1552,7 +1553,7 @@ responsive
     text-align: center;
   }
   .our-portfolio .section-heading h2 {
-    margin: 0px 0px 80px 0px;
+    margin: 400px 0px 150px 0px;
   }
   .our-portfolio .item {
     margin-bottom: 15px;
@@ -1585,6 +1586,7 @@ responsive
     padding: 120px 0px;
   }
   .contact-us .section-heading {
+    padding-top: 50px;
     text-align: center;
   }
   form#contact {
@@ -1601,7 +1603,7 @@ responsive
 
 @media (max-width: 767px) {
   .about-us .left-image {
-    bottom: -280px;
+    bottom: -400px;
   }
   .our-blog .right-list {
     margin-left: 0px;
