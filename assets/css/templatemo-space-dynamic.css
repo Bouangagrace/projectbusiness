@@ -832,15 +832,15 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/business-3d-man-lying-on-stomach-with-laptop.png);
+  background-image: url(../images/bannière-removebg-preview.png);
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/business-3d-man-lying-on-stomach-with-laptop.png); */
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top;
   background-size: 80%;
   padding: 226px 0px 120px 0px;
   position: relative;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   /* transition: transform 1s ease-in-out; /* 1s pour la durée de la transition, ease-in-out pour une transition douce */
   /* animation: moove 10s 1.75s ease-in-out infinite;  */
 }
