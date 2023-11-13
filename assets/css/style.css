@@ -35,23 +35,24 @@ body{
 	visibility: hidden;
 	opacity: 0;
 	transition: all 1s ease;
+    
 }
 .modal-popup.show{
 	visibility:visible;
 	opacity: 1;
 }
 .modal-popup .box{
-	background-color:#ffffff81;
+	background-color:#fffffff8;
 	/* width: 750px; */
 	position: absolute;
 	left: 50%;
 	top:50%;
 	transform:translate(-50%,-50%);
-	/* display: flex; */
 	flex-wrap: wrap;
 	opacity: 0;
 	margin-left: 50px;
 	transition: all 1s ease;
+    border-radius: 10px;
 
 }
 .modal-popup.show .box{
@@ -95,7 +96,8 @@ body{
 .modal-popup .box .form{
 	flex:0 0 50%;
 	/* max-width: 50%; */
-	padding:20px;
+	padding:30px 30px 0 30px;
+    
 }
 
 .modal-popup .box .form h1{
